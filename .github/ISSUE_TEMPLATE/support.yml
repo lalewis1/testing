@@ -10,23 +10,15 @@ body:
     attributes:
       value: |
         We will endeavour to resolve your issue swiftly
-  - type: dropdown
+  - type: checkbox
     id: broken
     attributes:
       label: Is something broken?
       options:
-        - 'yes'
-        - 'no'
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: working
-    attributes:
-      label: Was it previously working?
-      options:
-        - 'yes'
-        - 'no'
+        - label: Is something broken
+          required: true
+        - label: Was it working before
+          required: true
   - type: textarea
     id: description
     attributes:
