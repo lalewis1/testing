@@ -1,0 +1,37 @@
+name: Support Ticket
+description: Submit a new ticket for support
+title: "[support]: "
+labels: ["bug", "triage"]
+projects: ["lalewis1/2"]
+assignees:
+  - lalewis1
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We will endeavour to resolve your issue swiftly
+  - type: dropdown
+    id: broken
+    attributes:
+      label: Is something broken?
+      options:
+        - yes
+        - no
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: working
+    attributes:
+      label: Was it previously working?
+      options:
+        - yes
+        - no
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: Details of the support request
+      placeholder: ex. the codebase is on fire
+    validations:
+      required: true
