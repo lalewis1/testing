@@ -1,6 +1,6 @@
 ---
 name: Support Ticket
-about: A request for Support
+about: A request for support
 title: "[Support Ticket] - "
 labels: ''
 assignees: lalewis1
@@ -12,6 +12,4 @@ assignees: lalewis1
 - [ ] Has it affected the core operation of the system
 - [ ] Are more than x people affected
 
-Thank You.
-
-Some one will be in contact shortly to assist.
+__Description__:
