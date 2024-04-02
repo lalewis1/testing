@@ -2,7 +2,7 @@ name: Support Ticket
 description: Submit a new ticket for support
 title: "[support]: "
 labels: ["recieved"]
-projects: ["lalewis1/projects/2"]
+projects: ["lalewis1//2"]
 assignees:
   - lalewis1
 body:
