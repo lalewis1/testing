@@ -1,8 +1,8 @@
 name: Support Ticket
 description: Submit a new ticket for support
 title: "[support]: "
-labels: ["bug", "triage"]
-projects: ["lalewis1/2"]
+labels: ["recieved"]
+projects: ["lalewis1/projects/2"]
 assignees:
   - lalewis1
 body:
@@ -27,7 +27,7 @@ body:
       options:
         - 'yes'
         - 'no'
-  - type: input
+  - type: textarea
     id: description
     attributes:
       label: Description
