@@ -1,0 +1,6 @@
+@prefix ex: <https://example.com/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:thing a ex:Thing ;
+  ex: rdfs:label "Hi Les!" ;
+.
